@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+}
+
+.parent {
+    display: flex;
+    height: 800px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.parent .child {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.child-1 {
+    background-color: green !important;
+}
+.child-2 {
+    background-color: red !important;
+}
+
+.child-3 {
+    background-color: blue !important;
+}
