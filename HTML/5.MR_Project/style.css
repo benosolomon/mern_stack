@@ -34,6 +34,8 @@ header {
     border-bottom: 1px solid #d4d4d4;
     padding-bottom: 15px;
 }
+
+
 .header-wrapper nav {
     display: flex;
     gap: 45px;
@@ -81,4 +83,20 @@ footer p {
     text-align: center;
     font-size: 25px;
     padding: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .header-wrapper {
+        flex-direction: column;
+    }
+
+    .image-wrapper > img {
+    width: 45%;
+}
+}
+
+@media only screen and (max-width: 500px) {
+    .image-wrapper > img {
+    width: 100%;
+}
 }
